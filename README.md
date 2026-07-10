@@ -1,8 +1,10 @@
 # Sistema de Gestão para Restaurantes
 
-Um sistema de gestão de restaurantes contendo uma API RESTful desenvolvida em **Laravel 12 (PHP 8.4)** e uma interface web SPA construída com **React + TypeScript + Vite** e estilizada com **Tailwind CSS**.
+ChefFlow é um sistema de gestão para gerenciar operações de restaurante, como autenticação de funcionários, cardápio, mesas, clientes e pedidos
 
-O sistema gerencia autenticação e painéis de funcionários (Garçom e Cozinheiro), controle de mesas, cadastro de clientes, cache local e painel de produção da cozinha em tempo real.
+![Dashboard](docs/images/dashboard.png)
+![New Order](docs/images/newOrder.png)
+![Menu](docs/images/menu.png)
 
 ---
 

@@ -39,7 +39,7 @@ const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
           <UtensilsCrossed size={18} />
         </div>
         <div className="flex-1">
-          <div className="sidebar-logo-text">RestaurantApp</div>
+          <div className="sidebar-logo-text">ChefFlow</div>
           <div className="sidebar-logo-sub">Sistema de Gestão</div>
         </div>
         <button className="sidebar-close-btn" onClick={onClose} title="Fechar menu">

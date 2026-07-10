@@ -36,7 +36,7 @@ const LoginPage = () => {
             <UtensilsCrossed size={26} />
           </div>
           <div>
-            <div className="login-title">RestaurantApp</div>
+            <div className="login-title">ChefFlow</div>
             <div className="login-sub">Entre com suas credenciais de funcionário</div>
           </div>
         </div>

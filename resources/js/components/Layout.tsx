@@ -30,7 +30,7 @@ const Layout = () => {
           >
             <Menu size={24} />
           </button>
-          <span className="mobile-logo-text">RestaurantApp</span>
+          <span className="mobile-logo-text">ChefFlow</span>
         </header>
 
         <div className="page-content">

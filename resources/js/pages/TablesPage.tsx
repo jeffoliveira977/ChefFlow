@@ -48,11 +48,6 @@ const TablesPage = () => {
     setShowModal(true);
   };
 
-  const openEdit = (table: Table) => {
-    setEditing(table);
-    setFormNumber(String(table.number));
-    setShowModal(true);
-  };
 
   const handleSave = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -141,13 +136,6 @@ const TablesPage = () => {
               <div className="table-tile-header">
                 <span className="table-tile-number">Mesa {table.number}</span>
                 <div className="table-tile-admin-actions">
-                  <button
-                    className="btn btn-ghost btn-sm btn-icon p-1 h-auto w-auto"
-                    onClick={() => openEdit(table)}
-                    title="Editar número"
-                  >
-                    <Pencil size={12} />
-                  </button>
                   <button
                     className="btn btn-ghost btn-sm btn-icon p-1 h-auto w-auto text-[var(--status-cancelled)]"
                     onClick={() => handleDelete(table)}
