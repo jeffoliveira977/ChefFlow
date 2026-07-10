@@ -191,7 +191,7 @@ class OrderController extends Controller
             return response()->json(['message'=> 'Only cooks can access this endpoint'], 200);
         }
 
-        $orders = Order::where('status',  ['pending', 'in_progress'])
+        $orders = Order::whereIn('status', ['pending', 'in_progress'])
             ->with(['customer', 'table', 'items.menuItem'])
             ->orderBy('created_at', 'desc')
             ->get();

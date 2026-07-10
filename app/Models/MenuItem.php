@@ -13,7 +13,6 @@ class MenuItem extends Model
         'created_at',
         'updated_at',
         'category_id',
-        'id'
     ];
 
     /**

@@ -9,15 +9,10 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class TableFactory extends Factory
 {
-    /**
-     * Define the model's default state.
-     *
-     * @return array<string, mixed>
-     */
     public function definition(): array
     {
         return [
-            'number' => fake()->unique()->numberBetween(1, 20),
+            'number' => $this->faker->unique()->numberBetween(1, 20),
             'status' => 'available',
         ];
     }

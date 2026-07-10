@@ -14,7 +14,6 @@ class OrderItem extends Model
         'updated_at',
         'order_id',
         'menu_item_id',
-        'id'
     ];
 
     /**
