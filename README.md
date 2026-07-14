@@ -34,7 +34,7 @@ ChefFlow é um sistema de gestão para gerenciar operações de restaurante, com
 - Laravel 12 & PHP 8.4
 - PostgreSQL
 - Docker & Docker Compose
-- Laravel Sanctum
+- Laravel
 
 ### Frontend
 - React 19 & TypeScript
